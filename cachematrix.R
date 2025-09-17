@@ -36,3 +36,6 @@ cacheSolve <- function(x, ...) {
 }
 
 ## Return a matrix that is the inverse of 'x'
+m <- matrix(c(2, 1, 1, 2), 2, 2)
+cm <- makeCacheMatrix(m)
+cacheSolve(cm)
